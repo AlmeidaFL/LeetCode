@@ -2,5 +2,4 @@
 
 using LeetCode;
 
-int[] x = [1];
-Console.WriteLine(BestTimeToBuyAndSellStocks121.MaxProfit(x));
+Console.WriteLine(LengthOfLastWord58.LengthOfLastWord("   fly me   to   the moon  "));
