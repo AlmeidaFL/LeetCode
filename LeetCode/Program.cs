@@ -2,4 +2,4 @@
 
 using LeetCode;
 
-Console.WriteLine(LengthOfLastWord58.LengthOfLastWord("   fly me   to   the moon  "));
+Console.WriteLine(LongestCommomPrefix14.LongestCommonPrefix(["flower","flow","flight"]));
