@@ -2,4 +2,6 @@
 
 using LeetCode;
 
-Console.WriteLine(LongestCommomPrefix14.LongestCommonPrefix(["flower","flow","flight"]));
+int[] array = [-1,-100,3,99];
+RotateArray189.Rotate(array, 2);
+Console.WriteLine(string.Join(", ", array));
