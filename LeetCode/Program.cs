@@ -2,6 +2,6 @@
 
 using LeetCode;
 
-int[] array = [-1,-100,3,99];
-RotateArray189.Rotate(array, 2);
-Console.WriteLine(string.Join(", ", array));
+int[] nums = [2,0,0];
+var k = JumpGame55.CanJump(nums);
+Console.WriteLine(k); // Saída: 5
