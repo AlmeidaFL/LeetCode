@@ -2,4 +2,4 @@
 
 using LeetCode;
 
-Console.WriteLine(new ValidParentheses20().IsValid("([)]"));
+Console.WriteLine(new NumberOfZeroFilledSubarrays2348().ZeroFilledSubarray([2,10,2019]));
