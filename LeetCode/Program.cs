@@ -2,4 +2,4 @@
 
 using LeetCode;
 
-Console.WriteLine(new NumberOfZeroFilledSubarrays2348().ZeroFilledSubarray([2,10,2019]));
+Console.WriteLine(new MaximumAreaofLongestDiagonalRectangle3000().AreaOfMaxDiagonal([[3,4],[4,3]]));
