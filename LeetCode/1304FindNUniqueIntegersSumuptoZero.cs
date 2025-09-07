@@ -9,10 +9,20 @@ public class FindNUniqueIntegersSumuptoZero1304 {
         {
             return [0];
         }
-        
-        var offSet = n % 2 == 0 ? 0 : 1;
-        var array1 = Enumerable.Range(1, ((n - offSet) + 1) / 2).ToArray();
-        var array2 = Enumerable.Range(1, ((n - offSet) + 1) / 2).Select(x => -x).ToArray();
-        return array1.Concat(array2).Concat(offSet == 1 ? [0] : []).ToArray();
+
+        var array = new int[n];
+        var index = 0;
+        for (int i = 1; i <= n / 2; i++)
+        {
+            array[index++] = i;
+            array[index++] = -i;
+        }
+
+        if (n % 2 != 0)
+        {
+            array[n-1] = 0;
+        }
+
+        return array;
     }
 }
