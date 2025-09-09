@@ -2,4 +2,4 @@
 
 using LeetCode;
 
-Console.WriteLine(string.Join(",",new FindNUniqueIntegersSumuptoZero1304().SumZero(4)));
+Console.WriteLine(new NumberofPeopleAwareofaSecret2327().PeopleAwareOfSecret(554, 8, 19));
