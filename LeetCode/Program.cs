@@ -1,3 +1,3 @@
 ﻿using LeetCode;
 
-Console.WriteLine(new FindMostFrequentVowelandConsonant3541().MaxFreqSum("aeiaeia"));
+Console.WriteLine(new ContainsDuplicateII219().ContainsNearbyDuplicate([1,2,3,1], 3));
