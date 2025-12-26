@@ -1,3 +1,3 @@
 ﻿using LeetCode;
 
-Console.WriteLine(new ContainsDuplicateII219().ContainsNearbyDuplicate([1,2,3,1], 3));
+Console.WriteLine(new MinimumPenaltyforaShop2483().BestClosingTime("YYNY"));
