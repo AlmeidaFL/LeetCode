@@ -1,3 +1,9 @@
 ﻿using LeetCode;
 
-Console.WriteLine(new MinimumPenaltyforaShop2483().BestClosingTime("YYNY"));
+Console.WriteLine(
+    string.Join(",",
+        new PlusOne66().PlusOne(
+            [8,9,4,5,0,0,7,9]
+            ) 
+        )
+    );
