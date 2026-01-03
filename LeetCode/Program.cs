@@ -1,4 +1,3 @@
 ﻿using LeetCode;
 
-Console.WriteLine(
-    new N_RepeatedElementinSize2NArray961().RepeatedNTimes([1,2,2,3]));
+Console.WriteLine(new NumberofWaystoPaintN_3Grid1411().NumOfWays(40));
