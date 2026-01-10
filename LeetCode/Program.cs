@@ -26,4 +26,4 @@ var a = new TreeNode(
      left: new TreeNode(val: 2, left: new(4), new(5)),
      right: new TreeNode(val: 3, right: new(6)));
 
-Console.WriteLine(new MaximumProductofSplittedBinaryTree1339().MaxProduct(a));
+Console.WriteLine(new SmallestSubtreewithalltheDeepestNodes865().SubtreeWithAllDeepest(a).val);
